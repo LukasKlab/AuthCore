@@ -1,4 +1,5 @@
 plugins {
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
     id 'java'
 }
 
@@ -18,10 +19,9 @@ repositories {
 }
 
 dependencies {
-    implementation (
-    'io.papermc.paper:paper-api:1.19-R0.1-SNAPSHOT',
-            'com.warrenstrange:googleauth:1.5.0'
-    )
+    implementation('io.papermc.paper:paper-api:1.19-R0.1-SNAPSHOT')
+    implementation('com.warrenstrange:googleauth:1.5.0')
+    shadow('com.warrenstrange:googleauth:1.5.0')
 }
 
 
