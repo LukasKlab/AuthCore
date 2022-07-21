@@ -1,0 +1,10 @@
+name: AuthCore
+version: '${version}'
+main: net.labindustries.authcore.AuthCore
+api-version: 1.19
+authors: [ Lukas02 ]
+description: Authentication System for discord members aswell as staff members to recive powers to prevent account thieft griefing
+website: labindustries.net
+commands:
+  verify:
+    description: Google Authenticator Verification for staff
