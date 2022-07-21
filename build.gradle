@@ -49,3 +49,5 @@ processResources {
         expand props
     }
 }
+
+build.dependsOn shadowJar
